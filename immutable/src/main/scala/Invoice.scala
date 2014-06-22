@@ -1,16 +1,11 @@
 package immutable
-// pattern
-// immutable
+// pattern (immutable)
 //
-// purpose
-// creates new object when change happens, does not change existing object
+// purpose (creates new object when change happens, does not change existing object)
 //
-// pros
-// immutables are easier to use
-// works better with parallel apps (less chance of deadlock)
+// pros (immutables are easier to use, works better with parallel apps (less chance of deadlock))
 //
-// cons
-// not that many except that more objects are used
+// cons (not that many except that more objects are used)
 trait Product extends Immutable {
   val price : Double
 }
