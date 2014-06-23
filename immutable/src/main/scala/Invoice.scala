@@ -1,7 +1,7 @@
 package immutable
 // pattern (immutable)
 //
-// purpose (creates new object when change happens, does not change existing object)
+// purpose (creates new object when change happens, does not change existing object, fundamental)
 //
 // pros (immutables are easier to use, works better with parallel apps (less chance of deadlock))
 //

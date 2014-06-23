@@ -1,7 +1,7 @@
 package single
 // pattern (singleton)
 //
-// purpose (manages access to common resource (e.g. session, db connection pool))
+// purpose (manages access to common resource (e.g. session, db connection pool), fundamental)
 //
 // pros (more control over objects (compared to plain singletons))
 //
